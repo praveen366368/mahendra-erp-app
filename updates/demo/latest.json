@@ -1,0 +1,4 @@
+{
+  "payload": "{\"apk_url\":\"https://github.com/praveen366368/mahendra-erp-app/releases/latest/download/MahendraERP-Demo.apk\",\"channel\":\"demo\",\"min_native\":13,\"notes\":\"First live update - confirms updates arrive without reinstalling.\",\"published_at\":\"2026-10-05T06:00:58Z\",\"sha256\":\"c66a22a52d22dd2154f7224feacc0a634e3507bff015ac5db2f6794530f40004\",\"size\":4801332,\"url\":\"https://github.com/praveen366368/mahendra-erp-app/releases/download/demo-1.3.1/demo-1.3.1.zip\",\"version\":\"1.3.1\"}",
+  "signature": "3Vp37plgKTyg99oTtj1IQMJTP18qGXWhGD2V8tduCMZ7D+OJXV1cwdwDSKM0Qo7jHs/WJ9niN6QhLp2xkRnkPQ=="
+}
