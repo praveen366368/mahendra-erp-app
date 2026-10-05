@@ -1,4 +1,4 @@
 {
-  "payload": "{\"apk_url\":\"https://github.com/praveen366368/mahendra-erp-app/releases/latest/download/MahendraERP-Demo.apk\",\"channel\":\"demo\",\"min_native\":13,\"notes\":\"First live update - confirms updates arrive without reinstalling.\",\"published_at\":\"2026-10-05T06:00:58Z\",\"sha256\":\"c66a22a52d22dd2154f7224feacc0a634e3507bff015ac5db2f6794530f40004\",\"size\":4801332,\"url\":\"https://github.com/praveen366368/mahendra-erp-app/releases/download/demo-1.3.1/demo-1.3.1.zip\",\"version\":\"1.3.1\"}",
-  "signature": "3Vp37plgKTyg99oTtj1IQMJTP18qGXWhGD2V8tduCMZ7D+OJXV1cwdwDSKM0Qo7jHs/WJ9niN6QhLp2xkRnkPQ=="
+  "payload": "{\"apk_url\":\"https://github.com/praveen366368/mahendra-erp-app/releases/latest/download/MahendraERP-Demo.apk\",\"channel\":\"demo\",\"min_native\":13,\"notes\":\"Three-line menu opens the 12-module architecture cards (second reference image); menus show only the reference screens.\",\"published_at\":\"2026-10-05T08:04:59Z\",\"sha256\":\"e8aaa235403c2ca6bf9d8cecc22e7fe2cc1062a4e8a44bf7ff3bde2bc46146a1\",\"size\":4801782,\"url\":\"https://github.com/praveen366368/mahendra-erp-app/releases/download/demo-1.3.3/demo-1.3.3.zip\",\"version\":\"1.3.3\"}",
+  "signature": "PI5dtiIiIXcemuWKDvNJLGtH7QofaPDIDGB0MHo0HlgrmX0BLHxXqYL78a1vr4InlD2h3XWXJ7N09f7BpAaX3A=="
 }
