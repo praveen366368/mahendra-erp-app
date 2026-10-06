@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BtH0gOTJ.js";import{i as t,n,t as r}from"./Chart-DvV3SlKg.js";var i=e();function a(e){return(0,i.jsx)(r,{height:e.height??300,option:t(e.labels,e.series)})}function o(e){return(0,i.jsx)(r,{height:e.height??300,option:n(e.labels,e.series,e.horizontal)})}export{o as BarChart,a as TrendChart};

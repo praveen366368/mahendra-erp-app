@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BtH0gOTJ.js";import{t}from"./Locations-B6Jg0sBT.js";var n=e();function r(){return(0,n.jsx)(t,{network:`instagram`})}export{r as default};

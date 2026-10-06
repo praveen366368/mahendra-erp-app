@@ -1,0 +1,45 @@
+/* Website chatbot widget + the English / Hindi switch in the header (module web_chat). Mobile first. */
+.lang-switch{margin-left:auto;display:inline-flex;align-items:center;min-height:36px;padding:4px 10px;border:1px solid var(--line,#DCE3EE);border-radius:999px;font-weight:600;font-size:.9rem;color:var(--blue,#0B3D91);text-decoration:none;background:#fff}
+.lang-switch:hover{border-color:var(--blue2,#1450B8)}
+.lang-switch{order:1}.hdr .menu-btn{order:2}.hdr .nav{order:3}
+@media(min-width:900px){.hdr .nav{margin-left:auto}.lang-switch{order:4;margin-left:8px}}
+.mchat{position:fixed;right:12px;bottom:12px;z-index:45;font-size:15px}
+.mchat.mchat-has-bar{bottom:76px}
+@media(min-width:900px){.mchat.mchat-has-bar{bottom:16px}.mchat{right:16px;bottom:16px}}
+.mchat[hidden],.mchat-panel[hidden]{display:none}
+.mchat-launch{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:10px 16px;border:0;border-radius:999px;background:var(--blue,#0B3D91);color:#fff;font:inherit;font-weight:700;box-shadow:0 6px 18px rgba(11,61,145,.35);cursor:pointer}
+.mchat-launch:hover{background:var(--blue2,#1450B8)}
+.mchat-open .mchat-launch{display:none}
+.mchat-panel{position:fixed;left:8px;right:8px;bottom:8px;max-height:min(620px,calc(100vh - 16px));display:flex;flex-direction:column;background:#fff;color:var(--ink,#17202E);border:1px solid var(--line,#DCE3EE);border-radius:14px;box-shadow:0 12px 40px rgba(16,24,40,.25);overflow:hidden}
+@media(min-width:560px){.mchat-panel{left:auto;right:16px;bottom:16px;width:380px}}
+.mchat-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;background:var(--blue,#0B3D91);color:#fff}
+.mchat-head h2{margin:0;font-size:1rem;color:#fff}
+.mchat-x{border:0;background:transparent;color:#fff;font-size:1.6rem;line-height:1;width:40px;height:40px;border-radius:50%;cursor:pointer}
+.mchat-x:hover{background:rgba(255,255,255,.15)}
+.mchat-log{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px;background:var(--soft,#F5F8FD);min-height:120px}
+.mchat-msg{max-width:88%;padding:8px 10px;border-radius:12px;line-height:1.45;word-wrap:break-word;overflow-wrap:anywhere}
+.mchat-msg p{margin:0 0 4px;white-space:pre-line}.mchat-msg p:last-child{margin-bottom:0}
+.mchat-bot{align-self:flex-start;background:#fff;border:1px solid var(--line,#DCE3EE)}
+.mchat-visitor{align-self:flex-end;background:var(--blue,#0B3D91);color:#fff}
+.mchat-item{display:flex;flex-direction:column;gap:1px;margin-top:6px;padding:6px 8px;border-left:3px solid var(--saffron,#F28C28);background:var(--blue-soft,#EAF1FC);border-radius:6px;font-size:.9rem}
+.mchat-item span{color:var(--muted,#5B6577)}
+.mchat-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px!important;font-weight:600;font-size:.9rem}
+.mchat-replies{flex:none;display:flex;flex-wrap:wrap;gap:6px;padding:8px 12px 0;background:#fff;max-height:132px;overflow-y:auto}
+.mchat-replies:empty{display:none}
+.mchat-chip{min-height:36px;padding:6px 12px;border:1px solid var(--blue2,#1450B8);border-radius:999px;background:#fff;color:var(--blue,#0B3D91);font:inherit;font-size:.88rem;font-weight:600;cursor:pointer}
+.mchat-chip:hover{background:var(--blue-soft,#EAF1FC)}
+.mchat-form{flex:none;display:flex;gap:6px;padding:8px 12px;background:#fff;border-top:1px solid var(--line,#DCE3EE)}
+.mchat-form input{flex:1;min-width:0;min-height:44px;padding:8px 10px;border:1px solid #B9C4D6;border-radius:10px;font:inherit}
+.mchat-form input:disabled{background:var(--soft,#F5F8FD)}
+.mchat-send{min-height:44px;padding:8px 14px;border:0;border-radius:10px;background:var(--saffron,#F28C28);color:#111;font:inherit;font-weight:700;cursor:pointer}
+.mchat-send:disabled{opacity:.6;cursor:default}
+.mchat-foot{margin:0;padding:0 12px 8px;font-size:.72rem;color:var(--muted,#5B6577);background:#fff}
+.mchat-consent{align-self:stretch;display:grid;gap:8px;padding:10px;background:#fff;border:1px solid var(--line,#DCE3EE);border-radius:12px}
+.mchat-check{display:flex;gap:8px;align-items:flex-start;font-size:.88rem}.mchat-check input{margin-top:3px;width:18px;height:18px;flex:none}
+.mchat-notice{margin:0;font-size:.8rem;color:var(--muted,#5B6577)}
+.mchat-otp{display:flex;gap:6px;flex-wrap:wrap}.mchat-otp input{flex:1;min-width:120px;min-height:40px;padding:6px 10px;border:1px solid #B9C4D6;border-radius:10px;font:inherit}
+.mchat-go{width:100%}
+.mchat-err{margin:0;font-size:.85rem;color:var(--bad,#B3261E)}.mchat-err:empty{display:none}
+.mchat-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media(prefers-reduced-motion:reduce){.mchat *{transition:none!important}}
+@media print{.mchat{display:none}}

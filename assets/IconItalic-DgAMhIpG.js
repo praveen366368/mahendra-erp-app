@@ -1,0 +1,1 @@
+import{t as e}from"./createReactComponent-DdsJvOjf.js";var t=e(`outline`,`bold`,`Bold`,[[`path`,{d:`M7 5h6a3.5 3.5 0 0 1 0 7h-6l0 -7`,key:`svg-0`}],[`path`,{d:`M13 12h1a3.5 3.5 0 0 1 0 7h-7v-7`,key:`svg-1`}]]),n=e(`outline`,`italic`,`Italic`,[[`path`,{d:`M11 5l6 0`,key:`svg-0`}],[`path`,{d:`M7 19l6 0`,key:`svg-1`}],[`path`,{d:`M14 5l-4 14`,key:`svg-2`}]]);export{t as n,n as t};

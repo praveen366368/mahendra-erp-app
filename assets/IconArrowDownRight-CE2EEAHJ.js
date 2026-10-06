@@ -1,0 +1,1 @@
+import{t as e}from"./createReactComponent-DdsJvOjf.js";var t=e(`outline`,`arrow-down-right`,`ArrowDownRight`,[[`path`,{d:`M7 7l10 10`,key:`svg-0`}],[`path`,{d:`M17 8l0 9l-9 0`,key:`svg-1`}]]);export{t};

@@ -1,0 +1,13 @@
+{
+  "name": "Mahendra ERP",
+  "short_name": "Mahendra ERP",
+  "description": "Mahendra CRM + Branch Platform",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A3A8C",
+  "theme_color": "#0A3A8C",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
