@@ -1,5 +1,32 @@
 # Mahendra ERP Demo — Android app
 
+## At a glance
+
+| | |
+|---|---|
+| **What it is** | The public download page and update files for the Mahendra ERP Demo Android app (sample data only). A web copy of the demo sits on the `gh-pages` branch. |
+| **Who uses it** | Mahendra staff and prospects who install the demo app on an Android phone |
+| **Backend** | None. Static files only (GitHub Releases and GitHub Pages) |
+| **Frontend** | The demo web app is built JavaScript on the `gh-pages` branch. The source code is not in this repository |
+| **Android app** | Mahendra ERP Demo (the APK is a release download, not stored in git) |
+| **Database** | None. The demo uses offline sample data |
+| **Port** | None |
+| **Run it** | Nothing to run here. Open the GitHub Pages site, or install the APK from the latest release |
+| **Test it** | No tests in this repository |
+| **Owner** | Mahendra |
+
+## Documents
+
+| Read this | To learn |
+|---|---|
+| [ARCHITECTURE.md](ARCHITECTURE.md) | The three places things live (main, gh-pages, releases) and how an update reaches a phone |
+| [CHANGELOG.md](CHANGELOG.md) | Demo versions 1.3.0 to 1.3.6 |
+| [CLAUDE.md](CLAUDE.md) | Rules for AI coding tools |
+
+A new developer reads this page, then ARCHITECTURE.md, then DATABASE.md. (There is no DATABASE.md here: the repository has no database.)
+
+---
+
 **Install once. Updates arrive by themselves — no reinstall.**
 
 ## ⬇️ Download
